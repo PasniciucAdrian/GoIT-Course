@@ -1,0 +1,207 @@
+Exercise1 – Homework 1
+
+1. Explain the stages of the Software Development Life Cycle (SDLC). Briefly describe what happens at the team level during each phase:
+	-Requirement Analysis (Planning), Design, Development, Testing, Deployment.
+
+
+
+	1. Requirement Analysis (Planning):
+
+	- The project requirements are identified and analyzed;
+
+	- The project's scope and objectives are defined;
+
+	- Documentation is created;
+
+	- Priorities are established;
+
+	- Meetings with stakeholders are organized.
+
+
+	2. Design:
+
+	- The system or site architecture is created;
+
+	- Implementation technologies are selected;
+
+	- Databases are defined;
+
+	- The user interface is designed.
+
+
+	3. Development:
+
+	- The source code is written;
+
+	- The Agile methodology is used to receive feedback and make efficient changes;
+
+	- Developers collaborate with each other;
+
+	- Code is reviewed.
+
+
+	4. Testing:
+
+	- Test cases are written;
+
+	- Code is tested;
+
+	- Test reports are created;
+
+	- Developers check and fix identified bugs.
+
+
+	5. Deployment:
+
+	- The environment for launching the software is installed and configured;
+
+	- The software is launched;
+
+	- Support is provided.
+
+
+
+2. What are the QA activities during each SDLC stage?
+
+
+	1. Requirement Analysis (Planning):
+
+	- Analyzes the requirements;
+
+	- Requests additional information if needed;
+
+	- Assesses risks;
+
+	- Plans test cases;
+
+	- Reviews test steps;
+
+	- Gives and receives feedback.
+
+
+	2. Design:
+
+	- Analyzes the design;
+
+	- Verifies that the design meets functional and non-functional requirements;
+
+	- Identifies potential issues that might affect testing;
+
+	- Adjusts testing methods to match the design;
+
+	- Communicates with the designer.
+
+
+	3. Development:
+
+	- Sets up the test environment;
+
+	- Writes test cases;
+
+	- Executes unit testing;
+
+	- Collaborates with developers.
+
+
+	4. Testing:
+
+	- Executes tests;
+
+	- Creates reports;
+
+	- Tracks bug resolution.
+
+
+	5. Deployment:
+
+	- Prepares documentation to ensure all bugs have been fixed;
+
+	- Creates a user guide;
+
+	- Participates in acceptance testing;
+
+	- Continues to monitor and check software performance after launch;
+
+	- Ensures that the software was implemented successfully.
+
+
+
+3. We have the following environments: dev, test, staging, and production. Describe the activities and types of testing performed in each environment.
+
+
+	1. Development Environment:
+
+	- Developers start writing the code;
+
+	- Updates are applied;
+
+	- Initial bugs are discovered;
+
+	- First testing takes place.
+
+
+		Testing types:
+
+		- Unit Testing – each part of the code is tested individually;
+
+		- Integration Testing – the interaction between different code components is tested.
+
+
+	2. Test Environment:
+
+	- Testers validate the code using manual and automated methods;
+
+	- Bug reports are created for discovered issues;
+
+	- Testing occurs in an isolated environment, so it doesn’t affect the code base;
+
+	- It’s verified whether the software works according to the requirements.
+
+
+		Testing types:
+
+		- Functional Testing – verifies that functionalities meet requirements;
+
+		- Integration Testing – checks how different parts of the software work together;
+
+		- Regression Testing – ensures that updates don’t break existing functionality.
+
+
+	3. Staging Environment:
+
+	- Pre-production environment;
+
+	- Ensures the application is free of errors before going live;
+
+	- Final testing is done before launch;
+
+	- Verifies readiness of the software for production.
+
+
+		Testing types:
+
+		- Performance Testing – observes app behavior under user load; checks speed and stability;
+
+		- Security Testing – identifies system vulnerabilities;
+
+		- Acceptance Testing – done by QA team and sometimes end users before release;
+
+		- Smoke Testing – tests core functionalities to ensure system stability.
+
+
+	4. Production Environment:
+
+	- Final environment where users interact with the live software;
+
+	- Application is in use;
+
+	- Testing here ensures that everything works correctly post-launch.
+
+
+		Testing types:
+
+		- Smoke Testing – confirms core functionality is working in production;
+
+		- Monitoring and Logging Testing – monitors performance and logs for real-time error detection;
+
+		- Post-Deployment Testing – confirms deployment was successful and app behaves as expected.
