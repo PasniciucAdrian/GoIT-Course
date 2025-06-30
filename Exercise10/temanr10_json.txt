@@ -1,0 +1,64 @@
+{
+    "lista_persoane": [
+        {
+            "id_unic": 1,
+            "nume": "Roger Federer",
+            "oras": "Basel",
+            "adresa": {
+                "strada": "Freie Strasse",
+                "casa": 1,
+                "numarul_apartamentului": 10
+            },
+            "date_de_contact": {
+                "numere_de_telefon": ["0151/1234567", "0041-78-2310000"],
+                "email": "roger.federer@swiss.com",
+                "skype": "roger.federer"
+            }
+        },
+        {
+            "id_unic": 2,
+            "nume": "Rafael Nadal",
+            "oras": "Mallorca",
+            "adresa": {
+                "strada": "PASSEIG DEL BORN",
+                "casa": 2,
+                "numarul_apartamentului": 20
+            },
+            "date_de_contact": {
+                "numere_de_telefon": ["+34 971 123 456", "+34 612 345 678"],
+                "email": "rafael.nadal@spanish.es",
+                "skype": "rafael.nadal"
+            }
+        },
+        {
+            "id_unic": 3,
+            "nume": "Luka Dončić",
+            "oras": "Dallas",
+            "adresa": {
+                "strada": "1234 Elm Street",
+                "casa": 3,
+                "numarul_apartamentului": 30
+            },
+            "date_de_contact": {
+                "numere_de_telefon": ["+1 214-555-1234", "+1 469-555-5678"],
+                "email": "luca.doncic@dallas.com",
+                "skype": "luca.doncic"
+            }
+        },
+        {
+            "id_unic": 4,
+            "nume": "Nikola Jokić",
+            "oras": "Denver",
+            "adresa": {
+                "strada": "Broadway Street",
+                "casa": 4,
+                "numarul_apartamentului": 40
+            },
+            "date_de_contact": {
+                "numere_de_telefon": ["+1 303-555-6789", "+1 720-555-1234"],
+                "email": "nikola.jokic@denver.com",
+                "skype": "nikola.jokic"
+            }
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+<lista_persoane>
+	<persoana_nr1>
+		<id_unic>1</id_unic>
+		<nume>Roger Federer</nume>
+		<oras>Basel</oras>
+		<adresa>
+			<strada>Freie Strasse</strada>
+			<casa>1</casa>
+			<numarul_apartamentului>10</numarul_apartamentului>
+		</adresa>
+		<date_de_contact>
+			<numere_de_telefon>
+				<nr_telefon_1>0151/1234567</nr_telefon_1>
+				<nr_telefon_2>0041-78-2310000</nr_telefon_2>
+			</numere_de_telefon>
+			<email>roger.federer@swiss.com</email>
+			<skype>roger.federer</skype>
+		</date_de_contact>
+	</persoana_nr1>
+	<persoana_nr2>
+		<id_unic>2</id_unic>
+		<nume>Rafael Nadal</nume>
+		<oras> Mallorca</oras>
+		<adresa>
+			<strada>PASSEIG DEL BORN</strada>
+			<casa>2</casa>
+			<numarul_apartamentului>20</numarul_apartamentului>
+		</adresa>
+		<date_de_contact>
+			<numere_de_telefon>
+				<nr_telefon_1>+34 971 123 456</nr_telefon_1>
+				<nr_telefon_2>+34 612 345 678</nr_telefon_2>
+			</numere_de_telefon>
+			<email>rafael.nadal@spanish.es</email>
+			<skype>rafael.nadal</skype>
+		</date_de_contact>
+	</persoana_nr2>
+	<persoana_nr3>
+		<id_unic>3</id_unic>
+		<nume>Luka Dončić</nume>
+		<oras>Dallas</oras>
+		<adresa>
+			<strada>1234 Elm Street</strada>
+			<casa>3</casa>
+			<numarul_apartamentului>30</numarul_apartamentului>
+		</adresa>
+		<date_de_contact>
+			<numere_de_telefon>
+				<nr_telefon_1>+1 214-555-1234</nr_telefon_1>
+				<nr_telefon_2>+1 469-555-5678</nr_telefon_2>
+			</numere_de_telefon>
+			<email>luca.doncic@dallas.com</email>
+			<skype>luca.doncic</skype>
+		</date_de_contact>
+	</persoana_nr3>
+	<persoana_nr4>
+		<id_unic>4</id_unic>
+		<nume>Nikola Jokić</nume>
+		<oras>Denver</oras>
+		<adresa>
+			<strada>Broadway Street</strada>
+			<casa>4</casa>
+			<numarul_apartamentului>40</numarul_apartamentului>
+		</adresa>
+		<date_de_contact>
+			<numere_de_telefon>
+				<nr_telefon_1>+1 303-555-6789</nr_telefon_1>
+				<nr_telefon_2>+1 720-555-1234</nr_telefon_2>
+			</numere_de_telefon>
+			<email>nikola.jokic@denver.com</email>
+			<skype>nikola.jokic</skype>
+		</date_de_contact>
+	</persoana_nr4>
+</lista_persoane>
