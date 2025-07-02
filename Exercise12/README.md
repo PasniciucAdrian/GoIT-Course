@@ -1,82 +1,62 @@
-# Exercise11 – Trello API Test Automation with Postman
+# Exercise12 – SQL Queries and Database Manipulation
 
-This folder contains the full solution for Homework 11 of the GoIT Manual QA course. The task involved testing the Trello API by simulating the lifecycle of a card using Postman, and verifying each step through automated tests.
+This folder contains the solution for Homework 12 of the GoIT Manual QA course. The task involved writing and executing a series of SQL queries to retrieve, insert, and delete data from a relational database, while also interpreting the results.
 
 ---
 
 ## 🎯 Objectives
 
-- Create and manage a Trello board, list, and card via API requests
-- Use Postman to send requests with appropriate HTTP methods
-- Write and validate tests using the “Tests” tab in Postman
-- Document actions with screenshots and visual confirmations
+- Practice SQL basics including `SELECT`, `WHERE`, `ORDER BY`, `LIKE`, `JOIN`, `INSERT`, `DELETE`, and aggregation
+- Extract specific information using conditions and filters
+- Insert and remove records to simulate real database operations
+- Analyze query results using screenshots and structured summaries
 
 ---
 
-## 🔁 Steps Completed
+## 📂 Files Included
 
-1. **Manually created a Trello board**
-   - Shown in Trello UI with no initial lists
-
-2. **GET request to retrieve all boards**
-   - Verified response includes the manually created board
-   - Board ID extracted for future use
-
-3. **POST request to create a new list on the board**
-   - Status 200 validated through Postman test
-   - List ID saved
-
-4. **GET request to retrieve list details**
-   - Test confirms that list name matches the expected value
-
-5. **POST request to create a card in the new list**
-   - Response status is 200 (validated)
-   - Card name: “Am creat un card in lista”
-
-6. **GET request to retrieve card info**
-   - Tests check if card name is correctly returned
-
-7. **PUT request to update card name**
-   - New name: “NumeNouPentruCard”
-   - Status 200 confirmed
-   - Visual confirmation in Trello board
-
-8. **GET request to verify updated name**
-   - Two assertions:
-     - Name matches string directly
-     - Name matches environment variable
-
-9. **DELETE request to remove card**
-   - Status 200 validated
-   - Card visually removed from Trello
+- `Requirements Homework 12.pdf` – official assignment instructions
+- `Printscreen explanations.pdf` – contains all screenshots and individual query explanations
 
 ---
 
-## 🛠️ HTTP Methods Used
+## 🧪 Queries Overview
 
-| Action              | Method  | Endpoint Example                                 |
-|---------------------|---------|--------------------------------------------------|
-| Retrieve boards     | GET     | `/members/me/boards`                            |
-| Create list         | POST    | `/1/lists`                                      |
-| Retrieve list info  | GET     | `/1/lists/{id}`                                 |
-| Create card         | POST    | `/1/cards`                                      |
-| Retrieve card info  | GET     | `/1/cards/{id}`                                 |
-| Update card         | PUT     | `/1/cards/{id}?name=newName`                   |
-| Delete card         | DELETE  | `/1/cards/{id}`                                 |
-
----
-
-## ✅ Results
-
-- All API calls responded with status **200 OK**
-- All test scripts in Postman **passed successfully**
-- Actions were visually confirmed in the Trello web interface
-- Screenshots were taken and explained in the attached PDF
+| # | Description | SQL Highlights |
+|--:|-------------|----------------|
+| 1 | Employees sorted by hire date (descending) | `ORDER BY hire_date DESC` |
+| 2 | Employees born after 1960 | `WHERE birth_date > '1959-12-31'` |
+| 3 | Last names starting with “Ma” | `WHERE last_name LIKE 'Ma%'` |
+| 4 | Employees in Kyiv, Dnipro, Lviv | `WHERE city IN (...)` |
+| 5 | Count engineers | `SELECT COUNT(*) AS total_engineers` |
+| 6 | Cities with more than 10 employees | `GROUP BY city` + `HAVING COUNT > 10` |
+| 7 | Join employees with titles | `JOIN` on `employee_no` |
+| 8 | Employees with salary between 50k–60k | `BETWEEN 50000 AND 60000` |
+| 9 | Insert new employee | `INSERT INTO employees (...) VALUES (...)` |
+| 10 | Delete the new employee | `DELETE FROM employees WHERE employee_no = ...` |
 
 ---
 
-## 📂 Files
+## ✅ Insert & Delete Test
 
-- `Requirements Homework 11.pdf` – assignment instructions
-- `Printscreen explanations.pdf` – screenshots and description of each step and result
+- A fictional employee named **Adrian Pasniciuc** was inserted using an `INSERT` query.
+- His presence was verified at the bottom of the `employees` table.
+- He was then successfully deleted using a `DELETE` query.
+- Final verification confirmed that the record was removed.
+
+---
+
+## 🧠 Key Learnings
+
+- Use of conditional selection and pattern matching
+- Aggregation and grouping in queries
+- Joining multiple tables to retrieve compound data
+- Full cycle: inserting → verifying → deleting data
+- Real-time SQL interaction using a sample database
+
+---
+
+## 📌 Status
+
+All queries were successfully executed, interpreted, and documented with screenshots and written explanations in the attached PDF.
 
