@@ -1,14 +1,11 @@
-# Exercise05 – Homework 5
+# Exercise06 – Homework 6
 
-This folder contains the fifth homework assignment for the Manual Tester course (GoIT). The assignment focused on requirement analysis using informal and role-based review techniques. The target document was the functional specification of the List Boxer application.
+This folder contains the sixth homework assignment for the Manual Tester course (GoIT). The task focuses on Black-box testing design techniques, specifically Equivalence Class Partitioning and Boundary Value Analysis (BVA). Students were asked to justify each test design decision and provide complete explanations for each case.
 
 ## Documents
 
-- [Homework 5 – Requirements](The%20assignment%20requirements.pdf)  
-  Provides instructions for reviewing a requirements document using informal and role-based techniques, with the goal of identifying unclear or incomplete specifications.
+- [Homework 6 – Requirements](Homework%206%20Requirements.pdf)  
+  Describes four tasks involving test case design based on black-box testing techniques. Emphasizes the use of equivalence classes and boundary values, and requires complete reasoning for each solution.
 
-- [List Boxer – Functional Requirements](ListBoxer_Requirements.pdf)  
-  A detailed draft specification for version 1.98 of the List Boxer application. It includes system requirements, main features, operating modes, user controls, filters, sorting behavior, and available shortcuts.
-
-- [Description of Inaccuracies, Ambiguities, and Errors](Description%20of%20inaccuracies%2C%20ambiguities%2C%20errors.pdf)  
-  A thorough review of the functional specification, highlighting inconsistencies, missing features, usability concerns, unclear descriptions, and user-focused questions.
+- [Homework 6 – Solutions](Homework%206.pdf)  
+  Contains the detailed answers to all four tasks, including equivalence class identification, required number of test cases, boundary value coverage, and a set of designed test cases for a grading application.
