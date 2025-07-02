@@ -10,3 +10,4 @@ After completing the introductory course, I knew this path was right for me. I d
 
 The GoIT course laid a solid theoretical foundation in QA and offered hands-on experience that helped me understand how manual testing is applied in real-life scenarios.
 
+📄 [View About.pdf](./About.pdf)
