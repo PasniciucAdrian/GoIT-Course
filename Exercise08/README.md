@@ -7,10 +7,6 @@ This folder contains the eighth homework assignment for the Manual Tester course
 - [Homework 8 – Requirements](Requirements%20for%20Homework%208.pdf)  
   Specifies the task to create 5 test cases in **Qase** and 5 bug reports in **Jira**, using examples from previous homework exercises.
 
-# Exercise 08 – Functional and UI Testing in Qase
-
-This repository documents the test cases created for Homework 8 of the GoIT Manual Testing course. The tests are designed and managed using [Qase.io](https://qase.io), focusing on both functional and UI aspects of the assigned application.
-
 ## Objective
 
 The goal of this exercise was to verify the functionality and behavior of an online educational coding platform through five distinct test cases. Each test was developed based on the detailed requirements outlined in the assignment PDF.
@@ -43,22 +39,6 @@ The following test cases were implemented:
    - Checks if the results update correctly after clicking the "Verify" button.
    - Ensures the editor is functional and results reflect the latest code changes.
 
-## Supporting Documentation
-
-The full assignment and test planning documents are included below:
-
-- 📄 [Requirements for Homework 8](../Exercise08/Requirements%20for%20Homework%208.pdf) – contains detailed instructions and testing scope.
-- 📸 Screenshots of all test cases as created in Qase:
-  - [Repository Overview](../Exercise08/TNG%20_%20Repository%20_%20Qase.png)
-  - [TNG-1 – Codul existent nu se poate modifica](../Exercise08/TNG%20_TestCase1.png)
-  - [TNG-2 – Schimba întrebarea](../Exercise08/TNG%20_TestCase2.png)
-  - [TNG-3 – Verifică ordinea afișării întrebărilor](../Exercise08/TNG%20_TestCase3.png)
-  - [TNG-4 – Ascunde teoria corespunzător](../Exercise08/TNG%20_TestCase4.png)
-  - [TNG-5 – Verifică actualizarea rezultatelor](../Exercise08/TNG%20_TestCase5.png)
-
-## Conclusion
-
-All test cases were executed in Qase with the goal of validating the user interface behavior and functional correctness of the platform. The structure, severity, priority, and test steps were carefully designed to align with the assignment requirements.
 
 ---
 
@@ -125,10 +105,3 @@ A total of **5 distinct bugs** were reported. Each bug includes:
 
 *Description:* After pressing the "Verify" button, the results do not update correctly or show a previous output.
 
----
-
-### 📌 Jira Overview Screenshot
-- `List - GoIT - Tema 8 - Jira.png`  
-  *Shows all five bugs reported and tracked in Jira with statuses and priorities.*
-
----
