@@ -1,14 +1,11 @@
-# Exercise05 – Homework 5
+# Exercise07 – Homework 7
 
-This folder contains the fifth homework assignment for the Manual Tester course (GoIT). The assignment focused on requirement analysis using informal and role-based review techniques. The target document was the functional specification of the List Boxer application.
+This folder contains the seventh homework assignment for the Manual Tester course (GoIT). The tasks are focused on structural testing concepts, including statement, decision, and path coverage, along with white-box/static testing responsibilities and tooling for Java-based applications.
 
 ## Documents
 
-- [Homework 5 – Requirements](The%20assignment%20requirements.pdf)  
-  Provides instructions for reviewing a requirements document using informal and role-based techniques, with the goal of identifying unclear or incomplete specifications.
+- [Homework 7 – Requirements](Requirements%20for%20Exercise%207.pdf)  
+  Presents three tasks requiring the use of flowcharts to visualize pseudocode and analyze coverage types, as well as a research component on white-box testing tools and responsibilities.
 
-- [List Boxer – Functional Requirements](ListBoxer_Requirements.pdf)  
-  A detailed draft specification for version 1.98 of the List Boxer application. It includes system requirements, main features, operating modes, user controls, filters, sorting behavior, and available shortcuts.
-
-- [Description of Inaccuracies, Ambiguities, and Errors](Description%20of%20inaccuracies%2C%20ambiguities%2C%20errors.pdf)  
-  A thorough review of the functional specification, highlighting inconsistencies, missing features, usability concerns, unclear descriptions, and user-focused questions.
+- [Homework 7 – Solutions](Homework%207.pdf)  
+  Contains completed answers for all tasks, including the correct number of test cases for different coverage goals, detailed paths for full path coverage, and a list of common tools and team roles involved in static code testing for Java.
