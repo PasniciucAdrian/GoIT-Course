@@ -31,6 +31,8 @@ Each section provides detailed insights into the processes and testing approache
 
 The purpose of this exercise is to demonstrate understanding of how software is planned, developed, tested, and deployed in real-world team environments, and to highlight the QA involvement throughout.
 
-[Exercise1 – Homework 1 (rezolvare)](Exercise1.pdf)
-[These are the requirements for Homework 1](These%20are%20the%20requirements%20for%20Homework%201.pdf)
 
+## 
+
+- [Exercise1 – Homework 1 (rezolvare)](Exercise1.pdf)
+- [These are the requirements for Homework 1](These%20are%20the%20requirements%20for%20Homework%201.pdf)
